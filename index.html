@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<meta name="viewport" content="width=divice-width, initial-scale="1.0>
+	
+	<link rel="stylesheet" type="text/css" href="css/stilo.css">
+</head>
+<body>
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+				<div class="page-header">
+					<ul class="nav nav-pills">
+					  <li role="presentation" class="active"><a href="index.html">Inicio</a></li>
+					  <li role="presentation"><a href="lista.html">Lista</a></li>
+					  <li role="presentation"><a href="acercade.html">Acerca de</a></li>
+					</ul>
+				</div>
+
+				<div class="imgcenter">
+					<img src="img/logo.png">
+				</div>
+
+			<form>
+				
+
+				<div class="panel panel-default">
+						<div class= "panel panel-primary text-center">
+							<h1>Formulario</h1>
+						</div>
+
+						<h3 class="page page-header">Ingrese los siguientes datos</h3>
+
+					    <div class="form-group"> <!-- Usuario -->
+					        <label>
+					        	<span class="glyphicon glyphicon-user" aria-hidden="true"></span> Usuario
+					        </label>
+					        <input type="text" class="form-control" name="usuario" placeholder="Ingrese Usario">
+					    </div>   
+
+
+
+					    <div class="form-group"> <!-- Clave -->
+					        <label>
+								<span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Clave	
+					        </label>
+					        <input class="form-control" name="clave" placeholder="Ingrese su contraseña">
+					    </div>                    
+					                            
+					
+					                            
+					    <div class="form-group"> <!-- Shell -->
+					        <label class="control-label">
+								<span class="glyphicon glyphicon-list" aria-hidden="true"></span> Shell
+					        </label>
+					        <select class="form-control" id="state_id">
+					            <option value="/bin/bash">/bin/bash</option>
+					            <option value="/bin/sh">/bin/sh</option>
+					            <option value="/usr/bin/csh">/usr/bin/csh</option>
+					            <option value="/bin/false">/bin/false</option>
+					           
+					        </select>                    
+					    </div>
+
+					    
+					    <div class="form-group"> <!-- Grupo -->
+					        <label class="control-label">
+								<span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Grupo
+					        </label>
+					        <select class="form-control" id="state_id">
+					            <option value="/bin/bash">Administrador</option>
+					            <option value="/bin/bash">Publica</option>
+					            <option value="/bin/bash">Invitado</option>
+					           
+					        </select>                    
+					    </div>
+					         
+					    
+					    <div class="form-group"> <!--Button -->
+					        <button type="submit" value="send" class="btn btn-primary">Enviar
+					        	<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+					        </button>
+					    </div>
+				</div>         
+			</form>	
+		</div>
+	</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<meta name="viewport" content="width=divice-width, initial-scale="1.0>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+				<div class="page-header">
+					<ul class="nav nav-pills">
+					  <li role="presentation" class="active"><a href="index.html">Inicio</a></li>
+					  <li role="presentation"><a href="lista.html">Lista</a></li>
+					  <li role="presentation"><a href="acercade.html">Acerca de</a></li>
+					</ul>
+				</div>
+				
+				<div class="panel panel-default">
+				  
+				  <div class="panel-heading">Lista</div>
+
+				  
+				  <table class="table">
+				  	<tr>
+				  		<th>Nombre</th> <th>Grupo</th> <th>Shell</th>
+				  	</tr>
+				    <tr>
+				    	<td>Nombre</td> <td>Grupo</td> <td>Shell</td>
+				    </tr>
+				    
+				  </table>
+				</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
+
+<!--
+<?php
+//abrimos el archivo en lectura
+$archivo = 'RLTRTO.txt';
+$fp = fopen($archivo,'r');
+//leemos el archivo
+$texto = fread($fp, filesize($archivo));
+ 
+//transformamos los saltos de linea en etiquetas <br>
+$texto = nl2br($texto);
+echo $texto;
+?>
+-->

@@ -1,0 +1,20 @@
+<html>
+<body set background="blue">
+<FORM ACTION="/cgi-bin/leerform.cgi" METHOD="POST">
+<h2>Ingrese los siguientes datos:</h2>
+<h1>Formulario:
+<p>
+Usuario: <INPUT NAME="usuario" SIZE="30" MAXLENGTH="80" placeholder="Ingrese Usario"><BR>
+Clave: <INPUT NAME="clave" SIZE="30" MAXLENGTH="80" placeholder="Ingrese Contrase;a"><BR>
+Shell: <select name=shell>
+	<option value="/bin/bash">/bin/bash
+	<option value="/bin/sh">/bin/sh
+	<option value="/usr/bin/csh">/usr/bin/csh
+	<option value="/bin/false">/bin/false
+       </select><br>
+<p>
+</h1>
+<INPUT TYPE="SUBMIT" VALUE="Send">
+</FORM>
+</body>
+
